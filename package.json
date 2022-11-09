@@ -1,0 +1,23 @@
+{
+  "name": "botname",
+  "version": "0.0.1",
+  "description": "Not Needed",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --version",
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [
+    "Discord"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@discordjs/rest": "^0.3.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^14.5.0",
+    "fs": "^0.0.1-security"
+  }
+}
